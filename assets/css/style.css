@@ -61,10 +61,8 @@ section {
     align-items: center;
     justify-content: center;
     gap: 2rem;
-    /* background-color: #333; */
 }
 .item {
-    /* background-color: rgb(189, 183, 183); */
     padding: 1.6rem 0;
     font-size: 1.6rem;
 }
@@ -139,10 +137,6 @@ a:visited {
 }
 
 @media only screen and (max-width: 1000px) {
-    header {
-        padding: 0;
-        padding-top: 3.2rem;
-    }
     .grid-container {
         width: 100%;
         display: grid;
@@ -176,7 +170,7 @@ a:visited {
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 850px) {
     header,
     section,
     footer {
